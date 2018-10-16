@@ -1,8 +1,8 @@
-# ​How to burn issued Token
+# ​How to burn issued Token.
 
 Open up your Waves wallet.
 
-Go to the Portfolio.
+Go to the **Portfolio**.
 
 ![](/_assets/token_burn_01.png)
 
@@ -25,6 +25,8 @@ Check the entered data and if everything is ok, click on the **Confirm** button.
 
 ![](/_assets/token_burn_06.png)
 
-After all you will be able to find the reissue transaction in your **Transactions**.
+___
 
-![](/_assets/token_burn_07.png)
+See more articles in the [Assets Management](/waves-client/assets-management.md) chapter.
+
+If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

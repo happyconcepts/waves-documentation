@@ -4,21 +4,31 @@
 
 The verification process is handled by [IDnow](https://www.idnow.eu/) service.
 
-First of all, you should check that your country is eligible for verification and which document is needed. You will find all these information [here](https://wavesplatform.userecho.com/topics/1304-list-of-accepted-countries-and-documents-for-verification/).
+First of all, you should check that your country is eligible for verification and which documents are required. You will find all these information [here](https://wavesplatform.userecho.com/topics/1304-list-of-accepted-countries-and-documents-for-verification/).
+**Note**: We don't accept international wire transfers from US Citizens or from USA Banks.
 
-Open your wallet. On the main page click on the **Receive** button in the EURO / USD sections, choose **Bank** and click on your personal link **Get verified button**.
+Open your wallet. On the main page click on the **Receive** button in the US Dollar or Euro sections.
 
-![](/en/_assets/fiat_transfers_01.png)
+![](/_assets/fiat_transfers_01.png)
 
-![](/en/_assets/fiat_transfers_02.png)
+Choose **Bank** and carefully read the terms of service provided by Coinomat gateway:
+
+> This service is provided by Coinomat Company (Сoinomat). Waves Platform AG does not undertake any responsibility for the activities carried out by Coinomat and does not take any part in the relationship that may arise between Coinomat and users of the Waves Platform.
+By using Coinomat services, you agree to be bound by [Coinomat Terms of Service and Conduction of Transactions](https://coinomat.com/terms.php). If you do not agree to these terms, then do not use Coinomat services.
+
+> I agree with the [Terms of Service and Conduction of Transactions](https://coinomat.com/terms.php), [Price List](https://coinomat.com/limits.php) and [Privacy Policy](https://coinomat.com/privacy.php) of Coinomat Company.
+
+If you agree, put a checkmark and click on your personal link **Get verified** button.
+
+![](/_assets/fiat_transfers_02.png)
 
 A Website will open in your browser. Asking you to enter personal information.
 
-![](/en/_assets/fiat_transfers_03.png)
+![](/_assets/fiat_transfers_03.png)
 
 Enter the form with your ID information and submit it. After that, this page will open. you will have to choose between webcam or mobile app to make a face-to-face interview.
 
-![](/en/_assets/fiat_transfers_04.png)
+![](/_assets/fiat_transfers_04.png)
 
 Once you have chosen and logged in you will have to wait that an Indow's collaborator takes you for a face-to-face. He will ask you some information about you and verify the authenticity of your ID documents.
 
@@ -91,8 +101,12 @@ If you've been verified and deposited with Euro or USD, you can withdraw Euro or
 
 To do so please make a SEND transaction to the Waves address **3P7qtv5Z7AMhwyvf5sM6nLuWWypyjVKb7Us**
 
-![](/en/_assets/fiat_transfers_01.png)
+![](/_assets/fiat_transfers_01.png)
 
 Fees are 1% from the amount transferred. The minimum amount is 50 USD/Euro. More detailed conditions are available on the official [Coinomat gateaway website](https://coinomat.com/).
+
+___
+
+See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 
 If you have any questions, please send an email to: **support@coinomat.com**

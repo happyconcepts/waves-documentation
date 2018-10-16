@@ -2,7 +2,7 @@
 
 Waves client позволяет хранить и переводить Litecoin внутри сети Waves. Это возможно благодаря шлюзу: Litecoin поступают на Litecoin адрес выданный пользователю в Waves client, а взамен пользователь получает ассет Litecoin в сети Waves (wLTC). При выводе wLTC из сети Waves пользователь получает Litecoin из расчета 1:1.
 
-Всю исчерпывающую информацию о работе Litecoin шлюза вы найдёте в этой статье [Что такое платежный шлюз](/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+Всю исчерпывающую информацию о работе Litecoin шлюза вы найдёте в этой статье [Что такое платежный шлюз](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
 ## **Как получить Litecoin**.
 
@@ -68,3 +68,9 @@ Waves client позволяет хранить и переводить Litecoin 
 Если все данные верны нажмите **Подтвердить**. Для корректировки данных нажмите **Назад**.
 
 ![](/_assets/litecoin_transfers_08.png)
+
+___
+
+Больше статей в разделе [Переводы и шлюзы](/waves-client/wallet-management.md)
+
+Если у вас возникнут трудности с использованием нашей платформы, пожалуйста, создайте запрос в [службу поддержки](https://support.wavesplatform.com/) или задайте вопрос на нашем [форуме](https://forum.wavesplatform.com/).

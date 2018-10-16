@@ -1,4 +1,4 @@
-# How to distribute a Token using Mass Transfer
+# How to distribute a Token using Mass Transfer.
 
 You can make mass transfers right from your Waves wallet.
 With this feature, you can distribute your Token, Waves or any other Waves based tokens on your balance directly to multiple (up-to 100) Waves addresses with several most natural actions.
@@ -7,7 +7,7 @@ Let's make distribution for Waves tokens, although this method also works for an
 
 Open up your wallet.
 
-Go to Portfolio, click on the **Send** button (top left corner).
+Go to **Portfolio**, click on the **Send** button (top left corner).
 
 ![](/_assets/mass_transfer_01.png)
 
@@ -50,3 +50,9 @@ Save a file as CSV document and then open it by clicking on the **Import a CSV F
 ![](/_assets/mass_transfer_07.png)
 
 Follow the mass payment procedure described above.
+
+___
+
+See more articles in the [Assets Management](/waves-client/assets-management.md) chapter.
+
+If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

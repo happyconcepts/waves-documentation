@@ -1,15 +1,15 @@
-# Summary
+# Краткое изложение
 
-## Overview
+## Обзор
 
-  * [How To Use This Guide](overview/how-to-use-this-guide.md)
-  * [Platform Components](overview/platform-components.md)
-  * [Security Notes](overview/security-notes.md)
-  * [Waves Official Resources](overview/waves-official-resources.md)
-  * [Waves Releases](overview/waves-releases.md)
-  * [Waves Tokens](overview/waves-tokens.md)
+  * [Как использовать это руководство](overview/how-to-use-this-guide.md)
+  * [Компоненты платформы](overview/platform-components.md)
+  * [Заметки о безопасности](overview/security-notes.md)
+  * [Официальные ресурсы ](overview/waves-official-resources.md)
+  * [Waves релизы](overview/waves-releases.md)
+  * [Waves токены](overview/waves-tokens.md)
 
-## Platform Features
+## Возможности платформы
 
   * [Activation Protocol](platform-features/activation-protocol.md)
   * [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
@@ -21,9 +21,15 @@
 ## Waves Client
 
   * [Установка Waves приложения](waves-client/install-waves-client.md)
+
+  * [Безопасность](waves-client/security.md)
+    * [Будьте осторожны при использовании парольной фразы (SEED-фразы)!](waves-client/security/safe-place.md)
+    * [Спам-транзакции](waves-client/security/spam-transactions.md)
+
   * [Управление аккаунтом](waves-client/account-management.md)
     * [Создание аккаунта](waves-client/account-management/creating-an-account.md)
     * [Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
+    * [Ledger Nano S в Waves приложении](waves-client/account-management/ledger-nano.md)
     * [Перенос аккаунта](waves-client/account-management/account-migration.md)
     * [Вход в аккаунт](waves-client/account-management/signing-in-to-your-account.md)
     * [Ваш Waves адрес](waves-client/account-management/waves-address.md)
@@ -46,17 +52,20 @@
   * [Управление ассетами](waves-client/assets-management.md)
     * [Создание токена](waves-client/assets-management/issue-an-asset.md)
     * [Перевыпуск токена](waves-client/assets-management/reissue-an-asset.md)
+    * [Закрыте перевыпуска](waves-client/assets-management/reissuable-nonreissuable.md)
     * [Сжигание токена](waves-client/assets-management/burn-an-asset.md)
     * [Распределение токена](waves-client/assets-management/mass-transfer.md)
+    * [Спонсорские транзакции](waves-client/assets-management/sponsored-transaction.md)
+    * [Спосорская комиссия](waves-client/assets-management/sponsored-fee.md)
 
-## Часто задаваемые вопросы
-
-  * [Управление аккаунтом](frequently-asked-questions-faq/account-management-faq.md)
-    * [Один Seed - Один Waves адрес](frequently-asked-questions-faq/account-management/one-seed.md)
-    * [Ночной режим](frequently-asked-questions-faq/account-management/dark-mode.md)
-  * [Переводы и шлюзы](frequently-asked-questions-faq/transfers-and-gateways-faq.md)
-    * [Что такое платежный шлюз](frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
-    * [Обработка Ethereum платежей и смарт-контракты](frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
-  * [Waves DEX](frequently-asked-questions-faq/waves-dex-faq.md)
-    * [Время исполнения ордера](frequently-asked-questions-faq/waves-dex/order-time.md)
-    * [Поиск токена на бирже DEX используя Asset ID](frequently-asked-questions-faq/waves-dex/asset-id.md)
+  * [Часто задаваемые вопросы](waves-client/faq.md)
+    * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
+    * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
+    * [У меня есть достаточно Waves, но я не могу открыть ордер.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
+    * [Как получить достаточно Waves для оплаты комиссии?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
+    * [Время исполнения ордера.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
+    * [Поиск токена на бирже DEX используя Asset ID.](waves-client/frequently-asked-questions-faq/waves-dex/asset-id.md)
+    * [Что такое платежный шлюз?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+    * [Обработка Ethereum платежей и смарт-контракты.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
+    * [Что такое эйрдроп (Airdrop)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
+    * [Активация Ночного режима.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)

@@ -1,6 +1,6 @@
 # Переводы и шлюзы
 
-В главе "Переводы и шлюзы содержатся все необходимые сведения о транзакциях ввода и вывода криптовалют, которые поддерживает платформа Waves. Все транзакции с внешними криптовалютами обрабатываются [платежными шлюзами](/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
+В данном разделе содержатся все необходимые сведения о транзакциях ввода и вывода криптовалют, которые поддерживает платформа Waves. Все транзакции с внешними криптовалютами обрабатываются [платежными шлюзами](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
 
 * [Переводы Waves](transfers-and-gateways/waves-transfers.md)
 * [Переводы Токенов](transfers-and-gateways/asset-transfers.md)
@@ -17,7 +17,7 @@ The Waves wallet also supports small purchases of Waves in Euro and US Dollar (m
 
 * [Покупка Waves с банковской карты](transfers-and-gateways/buying-waves-using-card.md)
 
-Кошелек Waves также поддерживает покупку Waves за Евро и Доллары США (минимум 30 EUR / USD, максимум 200 EUR / USD) с использованием пластиковой банковской карты.
+Кошелек Waves также поддерживает покупку Waves за Евро и Доллары США (минимум 30 EUR/USD, максимум 3000 EUR/USD) с использованием пластиковой банковской карты.
 
 Во-первых, необходимо ввести в свой Waves кошелек криптовалюту. Если у вас нет BTC, ETH, LTC, ZEC, XMR, DASH, то купите их на своей доверенной биржи и отправьте их в Waves кошелек.
 

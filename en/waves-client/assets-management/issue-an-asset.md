@@ -1,4 +1,4 @@
-# How to create a Token
+# How to create a Token.
 
 Issuing your own token on Waves couldn’t be simpler, in the Waves client there is a tab for “Token Creation” where you can give your token a name and description, choose the total token and decimals and then create it.
 
@@ -14,9 +14,9 @@ You'll see the following window:
 
 Let's describe each boxes:
 
-**Name of your asset**: First of all, give your token a name. Important to know here is that names are not unique to prevent name squatting but the identifier, also called asset ID, is unique. Whenever you are looking for a token, search and confirm it is the right one by checking the asset ID;
+**Name of your asset**: First of all, give your token a name. Important to know here is that names are not unique to prevent name squatting but the identifier, also called asset ID, is unique. Whenever you are looking for a token, search and confirm it is the right one by checking the asset ID. However, if our anti-spam system detects duplicate names, it will automatically mark as spam tokens. So, before you start, please read carefully condition for creating new tokens;
 
-**Description**: Write a description for your token. You are also able to include website links which is particularly useful considering the asset description as of now is unchangeable;
+**Description**: Write a description for your token. You are also able to include website links which are particularly useful considering the asset description as of now is unchangeable;
 
 **Total tokens**: Define the total supply of your token. The total supply can either be fixed at issuance or increased later by making the asset re-issuable;
 
@@ -39,3 +39,9 @@ After that recheck everything again and click on the **Confirm** button and your
 You'll be able to see your newly created token in the Portfolio.
 
 ![](/_assets/token_creation_05.png)
+
+___
+
+See more articles in the [Assets Management](/waves-client/assets-management.md) chapter.
+
+If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

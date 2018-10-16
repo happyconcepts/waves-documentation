@@ -2,7 +2,7 @@
 
 Waves client позволяет хранить и переводить Ethereum внутри сети Waves. Это возможно благодаря шлюзу: Ethereum поступают на Ethereum адрес выданный пользователю в Waves client, а взамен пользователь получает ассет Ethereum в сети Waves (wETH). При выводе wETH из сети Waves пользователь получает Ethereum из расчета 1:1.
 
-Всю исчерпывающую информацию о работе Ethereum шлюза вы найдёте в этой статье [Что такое платежный шлюз](/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+Всю исчерпывающую информацию о работе Ethereum шлюза вы найдёте в этой статье [Что такое платежный шлюз](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
 ## **Как получить Ethereum**.
 
@@ -45,7 +45,7 @@ Waves client позволяет хранить и переводить Ethereum 
 
 **Внимание**: процесс вывода Ethereum из Waves аккаунта может занять до 120 минут.
 
-## **Как перевести Bitcoin в другой Waves аккаунт**.
+## **Как перевести Ethereum в другой Waves аккаунт**.
 
 Откройте ваш Waves кошелек и в Ethereum секции нажмите **Отправить**.
 
@@ -67,3 +67,9 @@ Waves client позволяет хранить и переводить Ethereum 
 Если все данные верны нажмите **Подтвердить**. Для корректировки данных нажмите **Назад**.
 
 ![](/_assets/ethereum_transfers_08.png)
+
+___
+
+Больше статей в разделе [Переводы и шлюзы](/waves-client/wallet-management.md)
+
+Если у вас возникнут трудности с использованием нашей платформы, пожалуйста, создайте запрос в [службу поддержки](https://support.wavesplatform.com/) или задайте вопрос на нашем [форуме](https://forum.wavesplatform.com/).
