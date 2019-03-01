@@ -1,4 +1,4 @@
-# **How to migrate your Beta and Lite client accounts into Waves wallet**
+# How to migrate your Beta and Lite client accounts into Waves wallet
 
 As you may know, Wavesplatform had several developmend stages. We had Waves Lite client as one of the very first wallet version. Then we created a completely redesigned application, and for several months the wallet had a Beta status. Finally, we proud to inform you that the official application has come out of Beta.
 
@@ -39,5 +39,9 @@ Choose the type of the application (Beta/Lite client) and click on the **Select*
 ![](/_assets/account_migration_05.png)
 
 You will forwarding to the Login page, where you can select the necessary account and login into it with your password only.
+
+___
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

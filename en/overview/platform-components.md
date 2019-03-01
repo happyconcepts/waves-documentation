@@ -16,13 +16,13 @@
 
 # 3. Decentralized cryptocurrency exchange \(DEX\)
 
-[DEX](/platform-features/decentralized-cryptocurrency-exchange-dex.md) allows to place and execute orders for buying or selling cryptocurrency or Tokens for another cryptocurrency or exchanging them to other Tokens.
+[_**DEX**_](/waves-environment/waves-protocol/decentralized-cryptocurrency-exchange-dex.md) allows to place and execute orders for buying or selling cryptocurrency or Tokens for another cryptocurrency or exchanging them to other Tokens.
 
 # 4. Mobile apps
 
-* Waves Wallet is a mobile client to WavesPlatform available on [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet) and [IOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8).
+* Waves App is a mobile client for Waves Platform available for [iOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 * The wallet is connected to public Waves nodes in order to retrieve your transactions and send payments.
-* Get started with Waves wallet for [iOS](en/waves-client/mobile-apps/iOS.md) and [Android](en/waves-client/mobile-apps/android.md)
+* Get started with Waves App for [iOS](/waves-client/mobile-apps/iOS.md) and [Android](/waves-client/mobile-apps/android.md) devices.
 
 # 5. Waves Gateways
 
@@ -38,17 +38,13 @@ the USD and EUR gateways offer Waves users an easy way to move money into the bl
 
 ## 6.2 Crypto Gateways
 
-All currencies listed below are integrated in Waves through gateways. You can see gateways as a means to transfer a currency to a platform.
+All currencies listed below are integrated in Waves through gateways. You can see gateways as a means to transfer a currency to and from the platform.
 
 Current List of crypto gateways:
 
-* [Bitcoin](/waves-client/transfers-and-gateways/bitcoin-transfers.md)
-* [Ethereum](/waves-client/transfers-and-gateways/ethereum-transfers.md)
-* [Litecoin](/waves-client/transfers-and-gateways/litecoin-transfers.md)
-* [Zcash](/waves-client/transfers-and-gateways/zcash-transfers.md)
-* [Bitcoin Cash](/waves-client/transfers-and-gateways/bitcoin-cash-transfers.md)
-* [Dash](/waves-client/transfers-and-gateways/dash-transfers.md)
-* [Monero](/waves-client/transfers-and-gateways/monero-transfers.md)
+* [Transfers and Gateways](/waves-client/wallet-management.md)
+* [iOS: Transfers and gateways](/waves-client/mobile-apps/iOS/wallet-management.md)
+* [Android: Transfers and gateways](/waves-client/mobile-apps/android/wallet-management.md)
 
 Cryptocurrency gateways can be used to move external currencies into and out of the Waves blockchain. Once the currencies have been confirmed as received by the gateway, the user’s wallet is credited with a Waves token that is 1:1 backed by the cryptocurrency held within the server. See more [What is a payment gateway](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
@@ -70,20 +66,10 @@ Nodes are a critical part of our ecosystem. [Run a Waves node](/waves-full-node/
 
 # 7.1 Mining nodes \(pools\)
 
-You don’t need any fancy hardware, just a simple hosted server and at least 1,000 WAVES.
+* You don’t need any fancy hardware, just a simple hosted server and at least 1,000 WAVES.
+* You can run a public mining pool and have users lease their funds to you, thereby increasing your profits and sharing them with the community.
 
-You can also run a public mining pool and have users lease their funds to you, thereby increasing your profits and sharing them with the community.
-
-You can find the full list of Waves nodes for leasing with their corresponding address here [http://dev.pywaves.org/generators-weekly/](http://dev.pywaves.org/generators-weekly/) :
-
-* [**wavesgo.com**](http://wavesgo.com/)
-* [**wavesfullnode.com**](http://wavesfullnode.com/)
-* [**wavescommunitynode.com**](http://wavescommunitynode.com/)
-* [**wavesnode.com**](http://wavesnode.com/)
-* [**wavespool.net**](http://wavespool.net/)
-* [**pospool.io**](http://pospool.io/)
-* [**wavesnode.net**](http://wavesnode.net/)
-* [**bearwaves.nl**](http://bearwaves.nl/)
+You can find the full list of Waves nodes for leasing with their corresponding address [_**HERE.**_](https://forum.wavesplatform.com/c/pools)
 
 # 7.2 Official nodes with open API
 
@@ -100,9 +86,12 @@ In principle, **any full node** can become a **Matcher**. Waves client connects 
 
 Matchers will receive fees for the service they provide, adding an additional revenue stream for Waves full nodes.
 
-**Note.** Waves node contains DEX Matcher which can be enabled while settings [the Waves node configuration file](/waves-full-node/how-to-configure-a-node.md) in the section of Matcher Settings.
+**Note.** Waves node contains DEX Matcher which can be enabled while settings [_**the Waves node configuration file**_ ](/waves-full-node/configuration-parameters.md)in the section of Matcher Settings.
 
 # 8. MainNet / TestNet
 
 1. **MainNet** - this is the real deal, the live Waves blockchain where you in the worst case could lose money if you are not careful. You can access the mainnet via a full node. it's integrated with the GUI in the Waves client, allowing anyone to use it without any technical knowledge or blockchain downloads.
-2. **TestNet **- this is the test version of the Waves blockchain. [here](https://github.com/wavesplatform/Waves/releases) you'll find always the latest versions and newest futures before they go live.
+2. **TestNet **- this is the test version of the Waves blockchain. [here](https://github.com/wavesplatform/Waves/releases) you'll find always the latest versions and newest features before they go live.
+
+
+

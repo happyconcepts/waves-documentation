@@ -1,28 +1,37 @@
-# How to receive and send Monero
+## Introduction
 
-Waves allow you to hold and transfer Monero on its blockchain. This works through a so-called Multigateway approach: Monero sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Monero token \(wMonero\) on the Waves blockchain. Every single Monero token is backed 1:1 with a real Monero.
+Waves allow you to hold and transfer Monero on its blockchain. This works through a so-called Multigateway approach: Monero sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Monero token \(wMonero\) issued in the Waves blockchain. Every single Monero token is backed 1:1 with the real Monero.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-## **How to receive Monero**
+## How to receive Monero
 
 Open your Waves wallet
 In the Monero section, click on the **Receive**.
 
 ![](/_assets/monero_transfers_01.png)
 
-The following pop-up will appear.
-Copy the shown Monero address or Scan QR Code and send a payment.
-Read the conditions carefully in yellow boxes before proceeding.
+The following window will appear. Before proceeding please carefully read the conditions:
+
+**The minimum amount of deposit is 0.1 XMR**
+```
+If you will send less than 0.1 XMR, you will lose that money.
+```
+**Send only XMR to this deposit address**
+```
+Sending any other currency to this address may result in the total loss of your deposit.
+```
+
+Copy the shown Monero address or Scan QR Code and send the payment.
 
 **Note**: Monero Payment ID already included in the recipient Monero address.
-But if the sender side required Payment ID, please contact Coinomat support team - support@coinomat.com
+But if the sender side required Payment ID, please contact Coinomat support team - **support@coinomat.com**
 
 ![](/_assets/monero_transfers_02.png)
 
 **Note**: Processing can take up to 120 minutes.
 
-## **How to send Monero**
+## How to send Monero
 
 Open your Waves wallet  
 In the Monero section, click on the **Send** button.
@@ -33,8 +42,8 @@ The following pop-up will appear.
 
 Paste the Monero address you want to send to, Payment ID which you are getting from the recipient side as well as the amount of Monero.
 
-Please note that the gateway charges 0.01 Monero for the gateway fee as well as 0.001 Waves for the network fee. Read the conditions carefully in yellow boxes before proceeding.
-After you have filled the form, click on the **Continue** button.
+Please note that the gateway charges **0.01 XMR** for the gateway fee as well as **0.001 Waves** for the network fee.
+**Before proceeding please carefully read the conditions**.
 
 ![](/_assets/monero_transfers_04.png)
 
@@ -45,9 +54,9 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes.
 
-## **How to create internal transaction through Waves network**
+## How to transfer Monero to another Waves account
 
-You can send Monero directly to another Waves account, just use the recipient Waves address, click on Send and fill-in the sending form.
+You can send Monero directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 
 **Note.** The network fee is only 0.001 Waves \(no gateway fee\)
 
@@ -63,6 +72,8 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 ![](/_assets/monero_transfers_08.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 
