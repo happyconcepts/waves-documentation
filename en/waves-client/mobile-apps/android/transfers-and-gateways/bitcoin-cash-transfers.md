@@ -4,7 +4,7 @@ Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works 
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-## How to receive Bitcoin Cash (on the way)
+## How to receive Bitcoin Cash
 
 Open your Waves app and log in to your Account.
 At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Receive**.
@@ -34,7 +34,7 @@ There you will find Bitcoin Cash address of your account. Copy it by clicking on
 
 **Note**: Processing may take up to 120 minutes.
 
-## How to send Bitcoin Cash (on the way)
+## How to send Bitcoin Cash
 
 Open your Waves app and log in to your Account.
 At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Send**.
@@ -87,9 +87,18 @@ Re-check entered data and click on the **Confirm** to complete the process.
 
 ![](/waves-client/mobile-apps/_assets/bitcoin-cash_06.png)
 
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Continue** button.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/waves-client/mobile-apps/_assets/transaction_fee.png)
+
 ___
 
-## More info
+
 
 See more articles in the [Transfers and gateways](/waves-client/mobile-apps/android/wallet-management.md) chapter.
 

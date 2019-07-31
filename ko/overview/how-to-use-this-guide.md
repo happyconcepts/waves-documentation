@@ -42,13 +42,13 @@
 
 해당 섹션에는 Waves 풀 노드의 설치, 환경설정 그리고 업그레이드 방법에 대한 설명이 포함되어 있습니다.
 
-1. [Waves 풀 노드가 무엇인가요](/waves-full-node/what-is-a-full-node.md)
-2. [노드 설치 방법](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-3. [노드 구성 방법](/waves-full-node/how-to-configure-a-node.md)
-4. [업그레이드 방법](/waves-full-node/upgrading.md)
-5. [블록체인에서 내보내기 및 가져오기](/waves-full-node/export-and-import-from-the-blockchain.md)
-6. [디스크 사용 공간 절약 방법](/waves-full-node/reducing-disk-space-usage.md)
-7. [테스트넷 참여 방법](/waves-full-node/joining-testnet.md)
+1. [Waves 풀 노드가 무엇인가요](/waves-node/what-is-a-full-node.md)
+2. [노드 설치 방법](/waves-node/how-to-install-a-node/how-to-install-a-node.md)
+3. [노드 구성 방법](/waves-node/how-to-configure-a-node.md)
+4. [업그레이드 방법](/waves-node/upgrading.md)
+5. [블록체인에서 내보내기 및 가져오기](/waves-node/export-and-import-from-the-blockchain.md)
+6. [디스크 사용 공간 절약 방법](/waves-node/reducing-disk-space-usage.md)
+7. [테스트넷 참여 방법](/waves-node/joining-testnet.md)
 
 # 6. 개발과 API
 
@@ -57,7 +57,7 @@
 3. [클라이언트 라이브러리 ](/development-and-api/client-libraries.md)\([PyWaves](/development-and-api/client-libraries/pywaves.md), [WavesJ](/development-and-api/client-libraries/wavesj.md), [WavesCS](/development-and-api/client-libraries/wavescs.md), [WavesC](/development-and-api/client-libraries/waves-c.md)\)
 4. [탈중앙화 거래소 API](/development-and-api/dex-api.md) \([Matcher](/development-and-api/dex-api/matcher.md)\)
 5. [노드 API 개요](https://legacy.gitbook.com/book/waves-platform/wavesdocs/edit#)
-6. [Waves 노드 Rest API](/development-and-api/waves-node-rest-api.md)
+6. [Waves 노드 Rest API](/development-and-api/node-api.md)
 7. [예시](/development-and-api/examples.md)
 
 # 7. 자주 묻는 질문 \(FAQ\)

@@ -1,6 +1,6 @@
 ## Введение
 
-[**LPoS \(Leased Proof of Stake\)**](https://docs.wavesplatform.com/en/platform-features/leased-proof-of-stake-lpos.html) дает вам возможность сделать сеть более стабильной и безопасной, получая за это вознаграждение в виде Waves и ассетов. Это и есть так называемы **Лизинг**.
+[**LPoS \(Leased Proof of Stake\)**](/en/blockchain/waves-protocol/leased-proof-of-stake-lpos.md) дает вам возможность сделать сеть более стабильной и безопасной, получая за это вознаграждение в виде Waves и ассетов. Это и есть так называемы **Лизинг**.
 
 Большинство людей не имеют 1000 WAVES для запуска своего собственного Full Node. Однако они могут помочь проекту с помощью сдачи в лизинга своих Waves кому-то, кто может запустить Full Node.
 
@@ -49,8 +49,6 @@
 ![](/waves-client/mobile-apps/_assets/waves_leasing_08.png)
 
 ___
-
-## Дополнительная информация
 
 Больше статей в разделе [Управление аккаунтом](/waves-client/mobile-apps/android/account-management.md)
 

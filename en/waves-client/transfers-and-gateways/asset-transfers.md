@@ -1,20 +1,19 @@
 ## How to receive Asset
 
-Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain.
+Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain. Whenever you want to receive Waves based asset, just hand your personal Waves address to the sender and he is able to execute the transaction.
 
-Whenever you want to receive Waves based asset, just hand your personal Waves address to the sender and he is able to execute the transaction.
+You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
-Open your Waves wallet. At the top left corner click on the avatar of your account.
+Open your Waves wallet. At the top right corner click on the **Account avatar**.
 
-![](/_assets/asset_transfers_05.png)
+![](/_assets/waves_address_01.png)
 
 The following pop-up will appear.
+Here you will find the Waves address of your account. To copy address to clipboard, just click on the **Copy** button
 
-There you will find the Waves address of your account.
+![](/_assets/waves_address_02.png)
 
-![](/_assets/asset_transfers_06.png)
-
-Copy the shown Waves address and use it as recipient address.
+After that use it as the recipient address for incoming asset transfers.
 
 ## How to send Asset
 
@@ -42,13 +41,22 @@ After you have entered all necessary information, click on the **Continue** butt
 
 The following pop-up will appear.
 
-Re-check entered data and click on the **Confirm** button.
+Re-check entered data and click on the **Send** button.
 
 ![](/_assets/asset_transfers_04.png)
 
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
+
 ___
 
-## More info
+
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

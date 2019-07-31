@@ -37,13 +37,13 @@
 
 Секция содержит всю информацию об установке, настройке и обновлении Waves full-ноды.
 
-1. [Что такое Waves full-нода](https://docs.wavesplatform.com/en/waves-full-node/what-is-a-full-node.html)
-2. [Как установить ноду](https://docs.wavesplatform.com/en/waves-full-node/how-to-install-a-node/how-to-install-a-node.html)
-3. [Как настроить ноду](https://docs.wavesplatform.com/en/waves-full-node/how-to-configure-a-node.md)
-4. [Обновление ноды](https://docs.wavesplatform.com/en/waves-full-node/upgrading.html)
-5. [Экспорт и импорт из блокчейна](https://docs.wavesplatform.com/en/waves-full-node/export-and-import-from-the-blockchain.html)
-6. [Уменьшение используемого места на диске](https://docs.wavesplatform.com/en/waves-full-node/reducing-disk-space-usage.md)
-7. [Присоединение к Testnet](https://docs.wavesplatform.com/en/waves-full-node/joining-testnet.html)
+1. [Что такое Waves full-нода](https://docs.wavesplatform.com/en/waves-node/what-is-a-full-node.html)
+2. [Как установить ноду](https://docs.wavesplatform.com/en/waves-node/how-to-install-a-node/how-to-install-a-node.html)
+3. [Как настроить ноду](https://docs.wavesplatform.com/en/waves-node/how-to-configure-a-node.md)
+4. [Обновление ноды](https://docs.wavesplatform.com/en/waves-node/upgrading.html)
+5. [Экспорт и импорт из блокчейна](https://docs.wavesplatform.com/en/waves-node/export-and-import-from-the-blockchain.html)
+6. [Уменьшение используемого места на диске](https://docs.wavesplatform.com/en/waves-node/reducing-disk-space-usage.md)
+7. [Присоединение к Testnet](https://docs.wavesplatform.com/en/waves-node/joining-testnet.html)
 
 # 6. Разработка и API
 
@@ -52,5 +52,5 @@
 3. [Клиентские библиотеки](https://docs.wavesplatform.com/en/development-and-api/client-libraries.html)\([PyWaves](https://docs.wavesplatform.com/en/development-and-api/client-libraries/pywaves.html), [WavesJ](https://docs.wavesplatform.com/en/development-and-api/client-libraries/wavesj.html), [WavesCS](https://docs.wavesplatform.com/en/development-and-api/client-libraries/wavescs.html) and [WavesC](https://docs.wavesplatform.com/en/development-and-api/client-libraries/waves-c.html)\)
 4. [DEX API](https://docs.wavesplatform.com/en/development-and-api/dex-api.html) \([Matcher](https://docs.wavesplatform.com/en/development-and-api/dex-api/matcher.html)\)
 5. [Обзор API ноды](https://legacy.gitbook.com/book/waves-platform/wavesdocs/edit#)
-6. [Rest API Waves ноды](https://docs.wavesplatform.com/en/development-and-api/waves-node-rest-api.html)
+6. [Rest API Waves ноды](https://docs.wavesplatform.com/en/development-and-api/node-api.html)
 7. [Примеры](https://docs.wavesplatform.com/en/development-and-api/examples.html)

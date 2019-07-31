@@ -37,7 +37,7 @@ In the Bitcoin section, click on the **Send** button.
 
 The following pop-up will appear.  
 Paste the Bitcoin address you want to send to as well as the amount of Bitcoin.  
-Please note that the gateway charges **0.001 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
+Please note that the gateway charges **0.0005 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
 **Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue** button.
@@ -64,13 +64,22 @@ After you have completed the form, click on the **Continue** button.
 ![](/_assets/bitcoin_transfers_07.png)
 
 The following pop-up will appear.  
-To complete the operation, click on the **Confirm** or **Back** to repeat the process.
+To complete the operation, click on the **Send** or **Back** to repeat the process.
 
 ![](/_assets/bitcoin_transfers_08.png)
 
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
+
 ___
 
-## More info
+
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

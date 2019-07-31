@@ -49,7 +49,7 @@ Fill in the sending form.
 * **Recipient**: Put the recipient address or scan QR-code or choose from Address book.
 * **Amount**: Define a number of Bitcoins you want to send or choose **Use total balance** **50%** **10%** **5%**
 
-Please note that the gateway charges **0.001 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
+Please note that the gateway charges **0.0005 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
 **Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue**.
@@ -86,9 +86,18 @@ Re-check entered data and click on the **Confirm** to complete the process.
 
 ![](/waves-client/mobile-apps/_assets/bitcoin_transfers_06.png)
 
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Continue** button.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/waves-client/mobile-apps/_assets/transaction_fee.png)
+
 ___
 
-## More info
+
 
 See more articles in the [Transfers and gateways](/waves-client/mobile-apps/android/wallet-management.md) chapter.
 

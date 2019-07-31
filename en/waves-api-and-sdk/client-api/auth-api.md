@@ -1,6 +1,6 @@
 # Waves Auth API
 
-If you want to authorize a user in your service by means of his Waves account, here's the solution. In general, you should redirect the user to the official Waves Client \([https://client.wavesplatform.com/](https://client.wavesplatform.com/)\) with certain query parameters including some arbitrary data for him to sign.
+If you want to authorize a user in your service by means of his Waves account, here's the solution. In general, you should redirect the user to the official Waves Client \([https://dex.wavesplatform.com/](https://dex.wavesplatform.com/)\) with certain query parameters including some arbitrary data for him to sign.
 
 That might be needed in cases when you need to work with user personal data and to be sure that a given blockchain account belongs to that user.
 
@@ -21,13 +21,11 @@ If the user interrupts the process, he stays on the Waves Client page.
 
 Due to the length limitations of the query string all parameters are expressed with one character.
 
-[**Here**](https://demo.wavesplatform.com) you can find the demo project which shows how to use Web auth API.
-
 ### Request
 
-[Example](https://client.wavesplatform.com#gateway/auth?r=https://example.com&n=Service%20Name&d=0123456789abc&i=/img/logo.png&success=/wavesAuth): `https://client.wavesplatform.com#gateway/auth?r=https://example.com&n=Service%20Name&d=0123456789abc&i=/img/logo.png&success=/wavesAuth`.
+[Example](https://dex.wavesplatform.com#gateway/auth?r=https://example.com&n=Service%20Name&d=0123456789abc&i=/img/logo.png&success=/wavesAuth): `https://dex.wavesplatform.com#gateway/auth?r=https://example.com&n=Service%20Name&d=0123456789abc&i=/img/logo.png&success=/wavesAuth`.
 
-Basic path is `https://client.wavesplatform.com#gateway/auth`. Then the query parameters go.
+Basic path is `https://dex.wavesplatform.com#gateway/auth`. Then the query parameters go.
 
 #### Referrer
 
@@ -75,7 +73,7 @@ You can use the [@waves/signature-generator](https://www.npmjs.com/package/@wave
 
 Signed data consists of three objects `Prefix string` + `URL host` + `Provided Data`
 Signature is taken from the data in the following order: a `WavesWalletAuthentication` string, then a string with your host parameter value, then a string with your data parameter value.
-All strings is converted to `length bytes + value bytes` as in [Data Transactions](/waves-environment/waves-protocol/data-transaction.md)
+All strings is converted to `length bytes + value bytes` as in [Data Transactions](/blockchain/transaction-type/data-transaction.md)
 Prefix string and the host is required for security purposes if malicious service tries to use transaction data and signature from Auth API it would be useless to broadcast into blockchain.
 
 We also suggest address validation in case the signature and public key is valid but the address was swapped.
@@ -189,7 +187,7 @@ def verifyAddress(public_key, address):
     address_hash = crypto.hashChain(crypto.str2bytes(unhashed_address))[0:4]
     address_from_public_key = base58.b58encode(crypto.str2bytes(unhashed_address + address_hash))
 
-    return address_from_public_key.decode() == address
+    return address_from_public_key == address
 
 
 
@@ -215,4 +213,70 @@ fake_signature = '29qWReHU9RXrQdQyXVXVciZarWXu7DXwekyV1zPivkrAzf4VSHb2Aq2FCKgRkK
 
 print('Fake signature:', fake_signature)
 print('Fake signature verification:', verify(pub_key, fake_signature, message_bytes))
+```
+
+#### Php example code
+```php
+<?php
+
+/*
+ * Requires WavesKit by deemru
+ * https://github.com/deemru/WavesKit
+ */
+
+require_once __DIR__ . '/vendor/autoload.php';
+use deemru\WavesKit;
+
+function signed_data( $host, $data )
+{
+    $prefix = 'WavesWalletAuthentication';
+    return str_with_length($prefix) . str_with_length($host) . str_with_length($data);    
+}
+
+function str_with_length( $data )
+{
+    return pack('n', strlen($data)).$data;
+}
+
+$wk = new WavesKit("W");
+$redirected_url = "https://example.com/?s=2w7QKSkxKEUwCVhx2VGrt5YiYVtAdoBZ8KQcxuNjGfN6n4fi1bn7PfPTnmdygZ6d87WhSXF1B9hW2pSmP7HucVbh&p=2M25DqL2W4rGFLCFadgATboS8EPqyWAN3DjH12AH5Kdr&a=3PCAB4sHXgvtu5NPoen6EXR5yaNbvsEA8Fj";
+$parsed_url = parse_url($redirected_url);
+parse_str($parsed_url['query'], $parsed_query);
+$address = $parsed_query['a'];
+$pub_key = $parsed_query['p'];
+$signature = $parsed_query['s'];
+$data_string = '0123456789abc';
+$host_string = $parsed_url['host'];
+$message_bytes = signed_data($host_string, $data_string);
+
+$wk->log('i', 'Address: '. $address);
+$wk->log('i', 'Public key:' . $pub_key);
+$wk->log('i', 'Signed Data: ' . $message_bytes);
+$wk->log('i', 'Real signature: '. $signature);
+
+$wk->setPublicKey( $pub_key );
+$is_address_verified = $address === $wk->getAddress();
+
+if ( $is_address_verified === true) 
+    $wk->log('s', "Address: Verified: TRUE"); 
+else 
+    $wk->log('e', "Address: Verified: FALSE");
+
+$signature_verified = $wk->verify($wk->base58Decode($signature), $message_bytes);
+
+if ( $signature_verified === true) 
+    $wk->log('s', "Signature Verified: TRUE"); 
+else 
+    $wk->log('e', "Signature Verified: FALSE");
+
+$fake_signature = '29qWReHU9RXrQdQyXVXVciZarWXu7DXwekyV1zPivkrAzf4VSHb2Aq2FCKgRkKSozHFknKeq99dQaSmkhUDtZWsw';
+$wk->log('i', 'Fake Signature: '. $fake_signature);
+
+$signature_verified = $wk->verify($wk->base58Decode($fake_signature), $message_bytes);
+
+if ( $signature_verified === true) 
+    $wk->log('e', "Fake Signature Verified: TRUE"); 
+else 
+    $wk->log('s', "Fake Signature Verified: FALSE");
+?>
 ```

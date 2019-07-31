@@ -64,13 +64,22 @@ After you have completed the form, click on the **Continue** button.
 ![](/_assets/zcash_transfers_07.png)
 
 The following pop-up will appear.  
-To complete the operation, click on the **Confirm** or **Back** to repeat the process.
+To complete the operation, click on the **Send** or **Back** to repeat the process.
 
 ![](/_assets/zcash_transfers_08.png)
 
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
+
 ___
 
-## More info
+
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

@@ -1,6 +1,6 @@
 # ​How to create Script transaction
 
-Script transactions allow you to extend the available functionality of the standard Waves application. One of the uses of script transaction is creating a multi-signature wallet. For more information, please check the following [article](/technical-details/video-tutorials-and-articles.md).
+Script transactions allow you to extend the available functionality of the standard Waves application. One of the uses of script transaction is creating a multi-signature wallet. For more information, please check the following [advanced tutroial](https://docs.wavesplatform.com/en/smart-contracts/video-tutorials/creating-multisignature-account-via-waves-client.html).
 Also, script can be developed with [Waves Ride IDE](https://ide.wavesplatform.com/). To manage multi-signature account among contract participants, please visit the following article [JSON confirmation](/waves-client/advanced_features/json_confirmation.md).
 
 **Note**:The fee for a transfer of a Smart Asset from a Smart Account would be 0.001+0.004+0.004=**0.009 Waves**.
@@ -8,14 +8,15 @@ Set Alias for an account without a script would cost **0.001 WAVES**, whereas fo
 
 **Before you start, please keep in mind. We do not recommend you submit script transactions unless you are an experienced user. Errors can lead to permanent loss of access to your account**.
 
+You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+
 So, to start using all available features of the application, first you need to activate the advanced features.
 
-By the way, you can use either online version of the client, or standalone version for Mac, PC or Linux. All versions support automatic update!
-Also downloads are available from the official site - https://wavesplatform.com/product
+Open online or desktop Waves app and click on the **Account avatar** at the top right corner. Then click on the **Settings**.
 
-Choose and open your Waves wallet. Click on the **Settings** button (see left bottom corner) ![](/_assets/dark_mode_01.png)
+![](/_assets/advanced_features_001.png)
 
-You will be forwarded to the following settings page. Find and put the checkmark near **Advanced features**.
+You will be forwarded to the **Settings page**. Find and put the checkmark near **Advanced features**.
 
 ![](/_assets/advanced_features_01.png)
 
@@ -23,7 +24,7 @@ In the **Security** settings you will find **Script** and **Set Script** button.
 
 ![](/_assets/advanced_features_03.1.png)
 
-Read the important notice carefully before proceeding. Afetr that, clicon the **Accept and continue**.
+Read the important notice carefully before proceeding. Afetr that, click on the **Accept and continue**.
 
 ![](/_assets/advanced_features_03.2.png)
 

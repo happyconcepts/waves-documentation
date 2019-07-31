@@ -1,7 +1,7 @@
 ## Как создать Waves аккаунт
 
 Загрузите и установите последнюю версию Waves приложения.  
-Пожалуйста, используйте только [официальнeю ссылку](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)).
+Пожалуйста, используйте только [официальную ссылку](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
 Откройте установленное приложение, выберете язык интерфейса и нажмите на **Продолжить**
 
@@ -73,8 +73,6 @@
 ![](/waves-client/mobile-apps/_assets/backup_02.png)
 
 ___
-
-## Дополнительная информация
 
 Больше статей в разделе [Управление аккаунтом](/waves-client/mobile-apps/android/account-management.md)
 

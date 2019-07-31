@@ -59,7 +59,7 @@ You can send Bitcoin Cash directly to another Waves account. Just use the recipi
 
 ![](/_assets/bch_transfers_01.png)
 
-After you have completed the form, click on the **Continue** button.
+After you have completed the form, click on the **Send** button.
 
 ![](/_assets/bch_transfers_07.png)
 
@@ -68,9 +68,18 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 ![](/_assets/bch_transfers_08.png)
 
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
+
 ___
 
-## More info
+
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 
